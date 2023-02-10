@@ -1,0 +1,1 @@
+var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");Object.defineProperty(exports,"__esModule",{value:true});exports.default=setUpPerformance;var _Performance=_interopRequireDefault(require("../WebPerformance/Performance"));function setUpPerformance(){global.performance=new _Performance.default();}

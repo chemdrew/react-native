@@ -1,0 +1,1 @@
+'use strict';var path=require('path');var createCacheKeyFunction=require('@jest/create-cache-key-function').default;module.exports={process:function process(_,filename){return{code:"module.exports = {\n      testUri:\n        "+JSON.stringify(path.relative(__dirname,filename).replace(/\\/g,'/'))+"\n    };"};},getCacheKey:createCacheKeyFunction([__filename])};

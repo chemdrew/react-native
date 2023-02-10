@@ -1,0 +1,1 @@
+if(!global.performance){global.performance={};}if(typeof global.performance.now!=='function'){global.performance.now=function(){var performanceNow=global.nativePerformanceNow||Date.now;return performanceNow();};}

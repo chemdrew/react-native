@@ -1,0 +1,1 @@
+'use strict';describe('DeviceInfo',function(){var DeviceInfo=require('../DeviceInfo');it('should give device info',function(){expect(DeviceInfo.getConstants()).toHaveProperty('Dimensions');});});
