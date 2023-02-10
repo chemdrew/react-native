@@ -1,1 +1,0 @@
-var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");var _createPerformanceLogger=_interopRequireDefault(require("./createPerformanceLogger"));var GlobalPerformanceLogger=(0,_createPerformanceLogger.default)();module.exports=GlobalPerformanceLogger;

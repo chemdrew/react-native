@@ -1,1 +1,0 @@
-'use strict';var remoteModulesConfig=[['RemoteModule1',null,['remoteMethod','promiseMethod','promiseReturningMethod','syncMethod'],[2],[3]],['RemoteModule2',null,['remoteMethod','promiseMethod','promiseReturningMethod','syncMethod'],[2],[3]]];var MessageQueueTestConfig={remoteModuleConfig:remoteModulesConfig};module.exports=MessageQueueTestConfig;

@@ -1,1 +1,0 @@
-'use strict';function EventTarget(){if(arguments.length>0){return EventTarget;}}module.exports=EventTarget;

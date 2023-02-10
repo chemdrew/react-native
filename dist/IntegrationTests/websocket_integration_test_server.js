@@ -1,2 +1,0 @@
-#!/usr/bin/env node
-'use strict';var WebSocket=require('ws');console.log("WebSocket integration test server\n\nThis will send each incoming message back, with the string '_response' appended.\nAn incoming message of 'exit' will shut down the server.\n\n");var server=new WebSocket.Server({port:5555});server.on('connection',function(ws){ws.on('message',function(message){console.log('Received message:',message);if(message==='exit'){console.log('WebSocket integration test server exit');process.exit(0);}ws.send(message+'_response');});ws.send('hello');});
